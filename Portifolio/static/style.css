@@ -1,0 +1,329 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+
+* {
+   margin: 0;
+   padding: 0;
+   font-family: 'Noto Sans JP', sans-serif, Arial;
+   
+}
+a{
+   list-style: none;
+   text-decoration:none;
+}
+html, body{
+   scroll-behavior: smooth;
+}
+
+
+nav{
+   background-color:#800e13;
+   font-weight: 500;
+   position: fixed;
+   width: 100%;
+}
+
+nav ul{
+   list-style: none;
+   display: flex;
+   justify-content: center;
+}
+
+nav ul li{
+   padding: 1rem;
+}
+
+nav ul li a{
+   text-decoration: none;
+   color: #fff;
+}
+
+header{
+   display: flex;
+  justify-content: left;
+   align-items: center;
+   padding: 5rem;
+   background-color:#800e13;
+}
+
+
+header div p{
+   font-size: 2vw;
+   font-weight: 700;
+   color:#fff;
+   padding: 1rem;
+}
+
+header div span{
+   font-size: 1vw;
+   font-weight: 500;
+   color:#fff;
+}
+ header div p span{
+   background-color:#800e13;
+   
+}
+
+section#sobre-mim{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding:2rem;
+   background-color:#800e13;
+}
+
+section#sobre-mim div{
+   width: 100%;
+   padding-left: -20;
+   background-color:#800e13;
+}
+
+section#sobre-mim div#img{
+   width: 40%;
+   background-color:#800e13;
+
+}
+section#sobre-mim div#texto{
+   width: 100%;
+   
+}
+section#sobre-mim div img{
+   width: 80%;
+   border-radius: 50%;
+   margin: auto;
+   background-color:#800e13;
+}
+
+section#sobre-mim div p{
+   font-size: 1.1vw;
+   text-align: justify;
+   color: #fff;
+   line-height: 2.5rem;
+   width: 100%;
+}
+
+section#projetos{
+   display: flex; 
+   justify-content: center; 
+   align-items: center; 
+   padding: 3rem; 
+   
+}
+
+section#projetos div{
+   width: 20rem;
+}
+
+section#projetos div img{
+   
+   display: block;
+   margin: auto;
+}
+
+section#projetos div h2{
+   text-align: center;
+   padding: 1rem;
+   color:#800e13;
+}
+
+section#projetos div p{
+   text-align: justify;
+   justify-content: center;
+   color:#800e13; 
+}
+
+section#projetos div{
+   padding: 2rem;
+   justify-content: center; 
+}
+
+section#projetos div button{
+   border: 1px solid#800e13;
+   background-color: #fff;
+   color:#800e13;
+   padding: 1rem;
+   font-size: .8vw;
+   font-weight: 600;
+   border-radius: .5rem;
+   display: block;
+   margin: auto;
+   margin-top: 2rem;
+   cursor: pointer;
+   transition: .6s ease-out;
+}
+
+section#projetos div button:hover{
+   background-color: #800e13;
+   color: #fff;
+   transform: scale(1.2);
+}
+
+
+section#habilidades h2{
+   text-align: center;
+   font-size: 2.5rem;
+   margin-bottom: 2rem;
+   color:#800e13;
+}
+
+section#habilidades p{
+   padding: 1rem;
+   font-size: 1.3rem;
+   font-weight: 600;
+   color: #800e13;
+}
+
+section#habilidades div{
+   display: flex;
+   border: 1px solid #800e13;
+   border-radius: 1rem;
+}
+
+section#habilidades div span#python{
+   background-color:#800e13;
+   color: #fff;
+   text-align: center;
+   padding: .3rem;
+   border-radius: 1rem;
+   width: 80%;
+}
+
+section#habilidades div span#html{
+   background-color:#800e13;
+   color: #fff;
+   text-align: center;
+   padding: .3rem;
+   border-radius: 1rem;
+   width: 50%;
+}
+
+section#habilidades div span#css{
+   background-color:#800e13;
+   color: #fff;
+   text-align: center;
+   padding: .3rem;
+   border-radius: 1rem;
+   width: 30%;
+}
+
+section#habilidades div span#Ingles{
+   background-color:#800e13;
+   color:#fff;
+   text-align: center;
+   padding: .3rem;
+   border-radius: 1rem;
+   width: 80%;
+}
+
+section#habilidades div span#Espanhol{
+   background-color:#800e13;
+   color:#fff;
+   text-align: center;
+   padding: .3rem;
+   border-radius: 1rem;
+   width: 80%;
+}
+section#contato {
+   padding: 3rem 10rem 3rem 10rem; 
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap; 
+}
+
+section#contato div#redes{
+   width: 100%; 
+}
+
+section#contato div#redes h3{
+   text-align: center; 
+   font-size: 2.5rem; 
+   margin-bottom: 2rem; 
+   color:#800e13;
+}
+
+section#contato div#redes div#icons{
+   display: flex;
+   justify-content: center;
+}
+
+section#contato div#redes div#icons a{
+   text-decoration: none; 
+   color:#800e13;
+   font-size: 4rem;
+   padding: 2rem;
+   transition: all .4s ease-out; 
+}
+
+
+section#contato div#redes div#icons a:hover{
+   color:#800e13;
+}
+
+section#contato div#redes div#icons a i{
+   transition: all .4s ease-out;
+}
+
+
+section#contato div#redes div#icons a i:hover{
+   transform: scale(1.2);
+}
+
+section#contato div#form{
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   color: #800e13;
+}
+
+section#contato div#form h3{
+   width: 100%;
+   text-align: center;
+   font-size: 2.5rem;
+   margin-bottom: 2rem;
+   color:#800e13;
+}
+
+section#contato div#form form{
+   width: 50%;
+}
+
+
+section#contato div#form form input, textarea{
+   width: 100%;
+   padding: .5rem;
+   font-size: 1.2rem;
+   border: 1px solid #800e13;
+   margin-top: .5rem;
+   margin-bottom: 1rem;
+   outline: none; 
+}
+
+section#contato div#form form label{
+   font-size: 1.2rem;
+}
+
+section#contato div#form form button{
+   border: 1px solid #800e13;
+   background-color:#800e13;
+   color:#fff;
+   padding: 1rem;
+   font-size: .8vw;
+   font-weight: 600;
+   border-radius: .5rem;
+   display: block;
+   margin: auto;
+   cursor: pointer;
+   transition: .6s ease-out;
+   width: 40%;
+}
+
+section#contato div#form form button:hover{
+   background-color:#800e13;
+   color:#800e13;
+   transform: scale(1.2);
+}
+Footer{
+   background-color:#800e13;
+   font-weight: 500;
+   position: fixed;
+   width: 100%;
+}

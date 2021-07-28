@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Portifólio</title>
+   <link rel="stylesheet" href="/static/style.css">
+   
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+   <nav>
+      <ul>
+         <li><a href="#inicio">Inicio</a></li>
+         <li><a href="#projetos">Projetos</a></li>
+         <li><a href="#habilidades">Habilidades</a></li>
+         <li><a href="#contato">Contato</a></li>
+      </ul>
+   </nav>
+
+   <header id="inicio">
+
+      <div>
+         <p> "O importante é não parar de questionar."</p>
+         <span>Albert Einstein</span>
+      </div>
+
+
+   </header>
+
+   <section id="sobre-mim">
+
+      <div id="img">
+         <img src="/static/img/cvimg.jpg" alt="Foto CV">
+      </div>
+
+      <div id="texto">
+         <p>
+            Olá, sou a Beatriz, tenho 25 anos e vivo na região do ABC Paulista.
+Apaixonada por animais  por novos desafios. Meus objetivos me instigam a aprender cada vez mais.
+Formada em Relações Internacionais possuo experiência em exportações, desenvolvimento de negócios internacionais,suporte na área de Marketing digital através de análise técnica.
+Atualmente estou me desenvolvendo como programadora.
+
+         </p>
+      </div>
+
+   </section>
+
+   <section id="projetos">
+
+      <div>
+         <img src="/static/img/red projetos.png" width="120" height="120">
+         <h2>Projeto do Humor</h2>
+         <p>Projeto do Humor, aplicand0 HTML, CSS e JavaScript.
+            O objetivo do jogo é mudar as imagens que expressam diferentes humores
+         </p>
+         <a href="https://github.com/BeatrizCoder/ProjetoHumor" target="_blank"><button>Veja mais</button></a>
+      </div>
+
+      <div>
+         <img src="/static/img/red projetos.png" width="120" height="120">
+         <h2>Projeto Simulador de votação</h2>
+         <p>Nste projeto é aplicado linguagem Python usando condcionais e funções</p>
+         <a href="https://github.com/BeatrizCoder/Projeto-votacao" target="_blank"><button>Veja mais</button></a>
+      </div>
+
+      <div>
+         <img src="/static/img/red projetos.png" width="120" height="120">
+         <h2>Projetos aplicando Low Code</h2>
+         <p>Aplicativos Low Code utilizando a platafoma Thunkable</p>
+         <a href="https://www.youtube.com/watch?v=cRozyS4y2ks" target="_blank"><button>Veja mais</button></a>
+      </div>
+
+   
+   </section>
+
+   <section id="habilidades">
+      <h2>Habilidades Técnicas e Idiomas</h2>
+
+      <p>Python</p>
+      <div>
+         <span id="python">50%</span>
+      </div>
+
+      <p>HTML 5</p>
+      <div>
+         <span id="html">70%</span>
+      </div>
+
+      <p>CSS 3</p>
+      <div>
+         <span id="css">30%</span>
+      </div>
+
+      <p>Inglês</p>
+      <div>
+         <span id="Ingles">Avançado</span>
+      </div>
+      <p>Espanhol</p>
+      <div>
+         <span id="Espanhol">Avançado</span>
+      </div>
+   </section>
+
+
+   <section id="contato">
+
+      <div id="redes">
+         <h3>Se conecte comigo</h3>
+
+         <div id="icons">
+            <a href="https://www.linkedin.com/in/beatriz-costa-leal-2822a0126/" target="_blank"> 
+               <i class="fa fa-linkedin-square" aria-hidden="true"></i> 
+            </a>
+   
+            <a href="https://github.com/BeatrizCoder" target="_blank"> 
+               <i class="fa fa-github" aria-hidden="true"></i> 
+            </a>
+   
+         
+         </div>
+         
+      </div>
+
+      <div id="form">
+
+         <h3>Mande uma mensagem</h3>
+
+         <form action='/send' method="POST">
+
+            <label for="nome">Nome</label>
+            <input id="nome" name="nome" type="text">
+
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email">
+
+            <label for="mensagem">Mensagem</label>
+            <textarea name="mensagem" id="mensagem" cols="10" rows="5"></textarea>
+
+            <button type="submit" id="enviar">Enviar</button>
+
+         </form>
+
+      </div>
+
+   </section>
+
+   <footer>
+<p>All rights reserved Beatriz Costa Leal</p>
+   </footer>
+
+   <script src="/static/js/portifolio.js"></script>
+</body>
+
+</html>
